@@ -1,6 +1,6 @@
-html{
+html {
     list-style-type: none;
-    color:#393939;
+    color: #393939;
     background-image: url('https://github.com/DaniloAnndrade/Portf-lio-New/blob/main/css/back/12.jpg?raw=true');
     background-size: cover;
     background-attachment: fixed;
@@ -10,123 +10,147 @@ html{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }  
-
-:root{
-
-    --cor1:rgb(241, 206, 8);
 }
 
-header{
+:root {
+
+    --cor1: rgb(241, 206, 8);
+}
+
+header {
     box-shadow: 0px 5px 20px black;
     margin: 3vh 7vw 4vh;
-    background: rgb(255, 255, 255);}
-.bloco{
+    background: rgb(255, 255, 255);
+}
 
-    display: flex;}
+.bloco {
 
-.bloco-texto{
+    display: flex;
+}
+
+.bloco-texto {
     padding: 14vh 2vw 10vh 7vw;
-    width: 50%;}
-.bloco-texto-sal{
+    width: 50%;
+}
 
-    font-size: 2.5vw;}
+.bloco-texto-sal {
+
+    font-size: 2.5vw;
+}
 
 
-.bloco-texto-nome{
+.bloco-texto-nome {
     padding-bottom: 2vh;
-    font-size: 4vw;}
-.bloco-texto-nome span{
-    color: var(--cor1);}
+    font-size: 4vw;
+}
+
+.bloco-texto-nome span {
+    color: var(--cor1);
+}
 
 
-.bloco-texto-prof{
+.bloco-texto-prof {
     border-radius: 10px;
     background-color: var(--cor1);
     padding: 1vh;
     font-size: 1.3vw;
-    font-style:italic;
-    display: inline-table;}
-    
-.bloco-texto-descricao{
+    font-style: italic;
+    display: inline-table;
+}
+
+.bloco-texto-descricao {
     font-style: italic;
     padding-top: 2vh;
     padding-bottom: 3vh;
     font-size: 1.1vw;
-    text-align: justify;}
-.bloco-texto-linkcontato{
+    text-align: justify;
+}
+
+.bloco-texto-linkcontato {
     background-color: var(--cor1);
     color: white;
     text-decoration: none;
     font-size: 1.3vw;
     border-radius: 15px;
     padding: 1vh 2vh;
-    font-style:oblique;
+    font-style: oblique;
 
 }
 
 
-.bloco-perfil{
-    width: 50%   
+.bloco-perfil {
+    width: 50%
 }
-.bloco-perfil-img{
+
+.bloco-perfil-img {
     width: 100%;
     height: 100%;
 }
 
-@media(max-width: 1100px){
-    header{
+@media(max-width: 1100px) {
+    header {
         margin: 20vh 2vw;
-        }
+    }
 
 
-    .bloco-texto{
+    .bloco-texto {
         padding: 10vh 2vw 9vh 6vw;
     }
-    .bloco-texto-descricao{
-    font-size: 1.8vw;}
-    
+
+    .bloco-texto-descricao {
+        font-size: 1.8vw;
+    }
+
 }
 
 
 
-@media(max-width: 700px){
-    header{
+@media(max-width: 700px) {
+    header {
         margin: 3vh 7vw 4vh;
-        }    
-    .bloco{
-        display: block;}
-    
-    .bloco-texto{
+    }
+
+    .bloco {
+        display: block;
+    }
+
+    .bloco-texto {
 
         width: 100%;
         padding: 5vh 7vw 5vh 7vw;
     }
 
-    .bloco-texto-descricao{
-    font-size: 3.2vw;}
-    
-    .bloco-texto-sal{
-        font-size: 5vw;}
-    
-    .bloco-texto-nome{
-    font-size: 9vw;}
-
-    .bloco-texto-prof{
-    font-size: 3vw;}
-
-    .bloco-texto-linkcontato{
-    font-size: 3vw;
+    .bloco-texto-descricao {
+        font-size: 3.2vw;
     }
 
-    .bloco-perfil{
+    .bloco-texto-sal {
+        font-size: 5vw;
+    }
+
+    .bloco-texto-nome {
+        font-size: 9vw;
+    }
+
+    .bloco-texto-prof {
+        font-size: 3vw;
+    }
+
+    .bloco-texto-linkcontato {
+        font-size: 3vw;
+    }
+
+    .bloco-perfil {
         height: 460px;
-        width: 100%;}
+        width: 100%;
+    }
 }
-@media(max-width: 400px){
-    .bloco-perfil{
+
+@media(max-width: 400px) {
+    .bloco-perfil {
         height: 360px;
-        width: 100%;}
+        width: 100%;
+    }
 
 }
 
@@ -137,55 +161,109 @@ header{
     display: flex;
     box-shadow: 0px 5px 20px black;
     margin: 15vh 7vw 10vh;
-    background-color: rgb(255, 255, 255);}
-.sobre{
+    background-color: rgb(255, 255, 255);
+}
+
+.sobre {
     width: 100%;
-    display: flex;}
-.sobre-conp{
+    display: flex;
+}
+
+.sobre-conp {
     width: 55%;
-    background-color: var(--cor1);}
+    background-color: var(--cor1);
+}
 
 
 
 .sobre-conp-img {
-    width: 100%;   }
-.sobre-conp-icone{
+    width: 100%;
+}
+
+.sobre-conp-icone {
     gap: 1vw;
-    padding: 2vh 6vw ;
-    display: flex;}
-
-
-
-.sobre-mais{
-    width: 90%;
-    padding: 5vh 7vw 2vh ;}
-.sobre-mais-sobre{
-    border: 1px dotted #39393971 ;
-    text-align: center;
-    font-size: 5vw;}
-
-    
-
-.sobre-mais-compo{
+    padding: 2vh 6vw;
     display: flex;
-    padding-block:9vh 0vh ;}
-.sobre-mais-compo-info{
+}
+
+
+
+.sobre-mais {
+    width: 90%;
+    padding: 5vh 7vw 2vh;
+}
+
+.sobre-mais-sobre {
+    border: 1px dotted #39393971;
+    text-align: center;
+    font-size: 5vw;
+}
+
+
+
+.sobre-mais-compo {
+    display: flex;
+    padding-block: 9vh 0vh;
+}
+
+.sobre-mais-compo-info {
     text-align: justify;
-    width: 90%;}
+    width: 90%;
+}
 
 
-.sobre-mais-compo-iten{
-    padding: 5vh 2vw;}
-.sobre-mais-compo-iten1 img{
+.sobre-mais-compo-iten {
+    padding: 5vh 2vw;
+}
+
+.sobre-mais-compo-iten1 img {
     border-radius: 10px;
     box-shadow: 0 1px 6px #39393971;
     margin: 2vh;
-    padding: 10px;}
+    padding: 10px;
+}
 
 
-@media(max-width: 1100px){
+@media(max-width: 1100px) {
+    .s1 {
+        margin: 20vh 2vw 10vh;
     }
-@media(max-width: 700px){
+
+    .sobre-mais-compo {
+        display: block;
     }
-@media(max-width: 400px){
+
+    .sobre {
+        display: block;
     }
+    .sobre-conp-img {
+        display: none;
+    }
+    .sobre-conp {
+        width: 50%;
+    }
+    .sobre-mais {
+        width: 100%;
+        padding: 5vh 7vw 2vh;
+    }
+    .sobre-mais-compo-info {
+        width: 100%;
+    }
+    .sobre-mais-compo-iten {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media(max-width: 700px) {
+
+    .s1 {
+        margin: 10vh 7vw 4vh;
+    }
+
+
+}
+
+@media(max-width: 400px) {}
