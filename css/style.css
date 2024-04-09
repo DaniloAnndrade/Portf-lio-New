@@ -121,3 +121,9 @@ header{
         height: 460px;
         width: 100%;}
 }
+@media(max-width: 400px){
+    .bloco-perfil{
+        height: 380px;
+        width: 100%;}
+
+}
