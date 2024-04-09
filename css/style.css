@@ -1,4 +1,6 @@
 html{
+    list-style-type: none;
+    color:#393939;
     background-image: url('https://github.com/DaniloAnndrade/Portf-lio-New/blob/main/css/back/12.jpg?raw=true');
     background-size: cover;
     background-attachment: fixed;
@@ -127,3 +129,63 @@ header{
         width: 100%;}
 
 }
+
+/*Segunda Parte*/
+
+.s1 {
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    box-shadow: 0px 5px 20px black;
+    margin: 15vh 7vw 10vh;
+    background-color: rgb(255, 255, 255);}
+.sobre{
+    width: 100%;
+    display: flex;}
+.sobre-conp{
+    width: 55%;
+    background-color: var(--cor1);}
+
+
+
+.sobre-conp-img {
+    width: 100%;   }
+.sobre-conp-icone{
+    gap: 1vw;
+    padding: 2vh 6vw ;
+    display: flex;}
+
+
+
+.sobre-mais{
+    width: 90%;
+    padding: 5vh 7vw 2vh ;}
+.sobre-mais-sobre{
+    border: 1px dotted #39393971 ;
+    text-align: center;
+    font-size: 5vw;}
+
+    
+
+.sobre-mais-compo{
+    display: flex;
+    padding-block:9vh 0vh ;}
+.sobre-mais-compo-info{
+    text-align: justify;
+    width: 90%;}
+
+
+.sobre-mais-compo-iten{
+    padding: 5vh 2vw;}
+.sobre-mais-compo-iten1 img{
+    border-radius: 10px;
+    box-shadow: 0 1px 6px #39393971;
+    margin: 2vh;
+    padding: 10px;}
+
+
+@media(max-width: 1100px){
+    }
+@media(max-width: 700px){
+    }
+@media(max-width: 400px){
+    }

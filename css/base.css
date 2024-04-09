@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: "DM Serif Text", serif;
 }
-ul{
+ul{ list-style-type: none;
     text-decoration: none;
 
 }
