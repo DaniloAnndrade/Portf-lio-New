@@ -93,11 +93,9 @@ header{
         margin: 3vh 7vw 4vh;
         }    
     .bloco{
-        position: relative;
         display: block;}
     
     .bloco-texto{
-        
 
         width: 100%;
         padding: 5vh 7vw 5vh 7vw;
@@ -120,7 +118,6 @@ header{
     }
 
     .bloco-perfil{
-        max-height: 56vh;
+        height: 460px;
         width: 100%;}
-        
 }
