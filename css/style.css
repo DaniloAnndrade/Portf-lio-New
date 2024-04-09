@@ -100,7 +100,7 @@ header{
         
 
         width: 100%;
-        padding: 5vh 3vw 5vh 9vw;
+        padding: 5vh 7vw 5vh 7vw;
     }
 
     .bloco-texto-descricao{
@@ -120,9 +120,7 @@ header{
     }
 
     .bloco-perfil{
-        padding: end;
-
-
+        max-height: 56vh;
         width: 100%;}
         
 }
