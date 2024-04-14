@@ -148,7 +148,7 @@ header {
 
 @media(max-width: 400px) {
     .bloco-perfil {
-        height: 360px;
+        height: 340px;
         width: 100%;
     }
 
@@ -266,4 +266,15 @@ header {
 
 }
 
-@media(max-width: 400px) {}
+@media(max-width: 400px) {
+
+    .sobre-mais-compo {
+        padding-block: 3vh 0vh;
+        
+    }
+
+    .sobre-mais-compo-iten {
+        padding: 1vh 3vw;
+
+    }
+}
