@@ -181,8 +181,9 @@ header {
 }
 
 .sobre-conp-icone {
+    padding: 1vh 3vw;
+    justify-content: center;
     gap: 1vw;
-    padding: 2vh 6vw;
     display: flex;
 }
 
@@ -202,7 +203,7 @@ header {
 
 
 .sobre-mais-compo {
-    display: flex;
+
     padding-block: 9vh 0vh;
 }
 
@@ -210,10 +211,14 @@ header {
     text-align: justify;
     width: 90%;
 }
-
+.sobre-mais-compo-info-texto{
+    font-size: 1.1vw;
+    text-indent: 1em;}
 
 .sobre-mais-compo-iten {
-    padding: 5vh 2vw;
+    display: flex;
+    justify-content: center;
+
 }
 
 .sobre-mais-compo-iten1 img {
@@ -228,10 +233,8 @@ header {
     .s1 {
         margin: 20vh 2vw 10vh;
     }
-
-    .sobre-mais-compo {
-        display: block;
-    }
+    .sobre-mais-compo-info-texto{
+        font-size: 1.6vh;}
 
     .sobre {
         display: block;
@@ -267,6 +270,11 @@ header {
 }
 
 @media(max-width: 400px) {
+    .sobre-mais-sobre{
+        display: none;
+    }
+    .sobre-mais-compo-info-texto{
+        font-size: 2vh;}
 
     .sobre-mais-compo {
         padding-block: 3vh 0vh;
